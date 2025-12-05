@@ -1,0 +1,5 @@
+:root { --theme-color: neon-blue; }
+.neon-blue { --primary: #00ffff; --secondary: #0080ff; }
+.cyber-pink { --primary: #ff00ff; --secondary: #800080; }
+/* Add similar for other themes */
+.app { background: linear-gradient(45deg, var(--primary), var(--secondary)); }
